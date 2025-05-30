@@ -61,7 +61,7 @@ body {
 .logo-icon {
     width: 32px;
     height: 32px;
-    color: #003d82;
+    color: #1e40af;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,7 +75,7 @@ body {
 .brand-name {
     font-weight: 800;
     font-size: 20px;
-    color: #003d82;
+    color: #1e40af;
     letter-spacing: -0.02em;
 }
 
@@ -96,26 +96,11 @@ body {
 }
 
 .nav-menu a:hover {
-    color: #003d82;
-}
-
-.nav-menu a::after {
-    content: '';
-    position: absolute;
-    bottom: -4px;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background: #003d82;
-    transition: width 0.3s ease;
-}
-
-.nav-menu a:hover::after {
-    width: 100%;
+    color: #1e40af;
 }
 
 .nav-cta {
-    background: #003d82;
+    background: #1e40af;
     color: white;
     border: none;
     padding: 12px 24px;
@@ -127,9 +112,9 @@ body {
 }
 
 .nav-cta:hover {
-    background: #002a5c;
+    background: #1d4ed8;
     transform: translateY(-1px);
-    box-shadow: 0 8px 32px rgba(0, 61, 130, 0.3);
+    box-shadow: 0 8px 32px rgba(30, 64, 175, 0.3);
 }
 
 /* Hero Section */
@@ -202,8 +187,8 @@ body {
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
 }
 
-/* Services Section */
-.services {
+/* What We Do Section */
+.what-we-do {
     padding: 120px 0;
     background: #f8fafc;
 }
@@ -255,12 +240,27 @@ body {
     width: 64px;
     height: 64px;
     margin: 0 auto 24px;
-    background: linear-gradient(135deg, #667eea, #764ba2);
     border-radius: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
+}
+
+.service-icon.web-design {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.service-icon.ui-ux {
+    background: linear-gradient(135deg, #f093fb, #f5576c);
+}
+
+.service-icon.responsive {
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+
+.service-icon.mobile {
+    background: linear-gradient(135deg, #43e97b, #38f9d7);
 }
 
 .service-icon svg {
@@ -289,7 +289,7 @@ body {
 }
 
 .service-highlight {
-    background: #003d82;
+    background: #1e40af;
     color: white;
     padding: 40px 32px;
     border-radius: 20px;
@@ -426,7 +426,7 @@ body {
 
 .testimonial-brand {
     font-weight: 700;
-    color: #003d82;
+    color: #1e40af;
     margin-bottom: 8px;
     font-size: 16px;
 }
@@ -466,7 +466,7 @@ body {
 }
 
 .solutions-button {
-    background: #003d82;
+    background: #1e40af;
     color: white;
     border: none;
     padding: 16px 32px;
@@ -478,9 +478,9 @@ body {
 }
 
 .solutions-button:hover {
-    background: #002a5c;
+    background: #1d4ed8;
     transform: translateY(-2px);
-    box-shadow: 0 12px 40px rgba(0, 61, 130, 0.3);
+    box-shadow: 0 12px 40px rgba(30, 64, 175, 0.3);
 }
 
 .solutions-demo {
@@ -592,7 +592,7 @@ body {
 }
 
 .pricing-button {
-    background: #003d82;
+    background: #1e40af;
     color: white;
     border: none;
     padding: 16px 32px;
@@ -605,9 +605,9 @@ body {
 }
 
 .pricing-button:hover {
-    background: #002a5c;
+    background: #1d4ed8;
     transform: translateY(-2px);
-    box-shadow: 0 12px 40px rgba(0, 61, 130, 0.3);
+    box-shadow: 0 12px 40px rgba(30, 64, 175, 0.3);
 }
 
 .pricing-plan h3 {
@@ -656,13 +656,13 @@ body {
 .currency {
     font-size: 20px;
     font-weight: 600;
-    color: #003d82;
+    color: #1e40af;
 }
 
 .price {
     font-size: 48px;
     font-weight: 800;
-    color: #003d82;
+    color: #1e40af;
     line-height: 1;
 }
 
@@ -711,7 +711,7 @@ body {
 .faq-icon {
     font-size: 20px;
     font-weight: 300;
-    color: #003d82;
+    color: #1e40af;
     transition: transform 0.3s ease;
     width: 24px;
     height: 24px;
@@ -783,8 +783,8 @@ body {
 .form-field input:focus,
 .form-field textarea:focus {
     outline: none;
-    border-color: #003d82;
-    box-shadow: 0 0 0 3px rgba(0, 61, 130, 0.1);
+    border-color: #1e40af;
+    box-shadow: 0 0 0 3px rgba(30, 64, 175, 0.1);
 }
 
 .form-field textarea {
@@ -793,7 +793,7 @@ body {
 }
 
 .contact-submit {
-    background: #003d82;
+    background: #1e40af;
     color: white;
     border: none;
     padding: 16px 32px;
@@ -806,9 +806,9 @@ body {
 }
 
 .contact-submit:hover {
-    background: #002a5c;
+    background: #1d4ed8;
     transform: translateY(-2px);
-    box-shadow: 0 12px 40px rgba(0, 61, 130, 0.3);
+    box-shadow: 0 12px 40px rgba(30, 64, 175, 0.3);
 }
 
 /* Footer */
@@ -835,7 +835,7 @@ body {
 .footer-logo {
     width: 32px;
     height: 32px;
-    color: #003d82;
+    color: #1e40af;
 }
 
 .footer-logo svg {
@@ -886,6 +886,11 @@ body {
     .pricing-layout {
         gap: 60px;
     }
+    
+    .services-extended {
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -909,7 +914,7 @@ body {
         margin-bottom: 32px;
     }
     
-    .services {
+    .what-we-do {
         padding: 80px 0;
     }
     
